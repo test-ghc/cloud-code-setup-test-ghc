@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: comp4970-rs-test
+  host: comp4970-rs-test
+  disk_quota: 1024M
